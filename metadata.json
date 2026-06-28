@@ -1,0 +1,6 @@
+{
+  "name": "Guía del Gerente BSG",
+  "description": "Aplicación educativa interactiva para estudiantes de Ingeniería Civil Industrial sobre The Business Strategy Game (BSG) con contenido detallado, cuestionarios de aprendizaje y un asistente de IA experto en el manual.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

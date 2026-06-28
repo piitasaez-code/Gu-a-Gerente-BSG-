@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-principal: #F8FAFC;
+  --color-bg-sidebar: #1F2937;
+  --color-bg-tarjeta: #FFFFFF;
+  --color-btn-principal: #2563EB;
+  --color-btn-hover: #3B82F6;
+  --color-concepto-imp: #F59E0B;
+  --color-confirmacion: #10B981;
+  --color-advertencia: #EF4444;
+  --color-texto-principal: #111827;
+  --color-texto-secundario: #4B5563;
+
+  --color-azul-noche: #F8FAFC;
+  --color-azul-profundo: #FFFFFF;
+  --color-indigo-custom: #2563EB;
+  --color-lavanda-custom: #3B82F6;
+  --color-rosa-custom: #F59E0B;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  /* Sutil degradado para el sidebar o encabezados */
+  .header-gradient {
+    background: linear-gradient(
+      135deg,
+      #1F2937 0%,
+      #111827 100%
+    );
+  }
+}
+
+/* Custom scrollbar matching clean light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
